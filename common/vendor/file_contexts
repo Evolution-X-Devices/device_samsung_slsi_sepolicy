@@ -75,6 +75,9 @@
 /dev/bbd_urgent_patch                        u:object_r:bbd_device:s0
 /dev/ttyBCM[0-9]*                            u:object_r:bbd_device:s0
 
+### ION
+/dev/ion                                     u:object_r:ion_device:s0
+
 ### NFC
 /dev/sec-nfc                                 u:object_r:nfc_device:s0
 /dev/st21nfc                                 u:object_r:nfc_device:s0
